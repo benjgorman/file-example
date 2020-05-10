@@ -6,7 +6,6 @@ import {
   Link
 } from "react-router-dom";
 
-
 import decaf from './images/decaf.jpg';
 import regular from './images/regular.jpeg';
 
