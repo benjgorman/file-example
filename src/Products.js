@@ -59,6 +59,7 @@ export class Products extends React.Component {
   }
 
   componentDidMount() {
+    document.title = "Coffee Co | Products"
     this.setState({
       products: products
     });

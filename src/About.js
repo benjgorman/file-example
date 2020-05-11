@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
@@ -7,6 +7,11 @@ import surfvan from './images/surf_van.jpeg';
 
 
 export function About() {
+
+    useEffect(() => {
+     document.title = "Coffee Co | About"
+  }, []);
+
   return (
       <Col>
 

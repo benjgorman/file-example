@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, Route } from 'react-router-dom';
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
@@ -8,6 +8,11 @@ import {ExampleComponent} from './ExampleComponent'
 
 
 export const Coffee = ({ match }) => {
+
+    useEffect(() => {
+     document.title = "Coffee Co | Coffee"
+  }, []);
+
   return (
     <Col>
       <h1>Our Coffee</h1>

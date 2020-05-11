@@ -29,7 +29,6 @@ const pageContainer = (
               <Route path="/products" component={Products}/>
               <Route path="/about" component={About}/>
               <Route path="/coffee" component={Coffee}/>
-
             </Switch>
           </Row>
       </Container>
