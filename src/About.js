@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
 
+
 import surfvan from './images/surf_van.jpeg';
 
 
@@ -16,8 +17,8 @@ export function About() {
       <Col>
 
         <article>
-        <Image src={surfvan} alt="Surf Van" fluid width="800px" className="rounded-bottom mx-auto d-block"/>
 
+        <Image src={surfvan} alt="Surf Van" fluid width="800px" className="rounded-bottom mx-auto d-block"/>
         <h1>Our Story!</h1>
           <p>
             French press percolator qui, crema latte sweet as froth cinnamon medium white. Strong sit medium roast, arabica shop sweet et percolator. Trifecta lungo, sweet mocha sweet doppio caffeine. Skinny decaffeinated french press beans iced cup, ut mocha extra grounds redeye. Cinnamon a est single origin saucer aromatic shop whipped cappuccino.

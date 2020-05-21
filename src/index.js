@@ -12,6 +12,7 @@ import {Coffee} from './Coffee';
 import {About} from './About';
 import {Products} from './Products';
 import {Footer} from './Footer';
+import {CourseForm} from './CourseForm';
 
 import {
   BrowserRouter as Router,
@@ -26,9 +27,11 @@ const pageContainer = (
           <Row>
           <Switch>
               <Route path="/" exact component={Home}/>
+              <Route path="/courses" component={CourseForm}/>
               <Route path="/products" component={Products}/>
               <Route path="/about" component={About}/>
               <Route path="/coffee" component={Coffee}/>
+              <Route path="/coffee-2020" component={Coffee}/>
             </Switch>
           </Row>
       </Container>

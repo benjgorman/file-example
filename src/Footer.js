@@ -14,9 +14,9 @@ export function Footer() {
   return (
     <footer className='footer'>
       <div className='container fluid'>
-        <p className="text-muted">© <b>2020 Coffee Co.</b>, All Rights Reserved
+        <p className="text-muted">© <b>2020 <Link to="/">Coffee Co</Link>.</b>, All Rights Reserved
         <br/>
-        Our coffee is the best coffee.</p>
+        Our <Link to="/coffee">Coffee</Link> is the best coffee.</p>
       </div>
     </footer>
   );

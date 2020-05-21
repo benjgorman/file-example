@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
 import {ExampleComponent} from './ExampleComponent'
+import {CourseForm} from './CourseForm'
 
 
 export const Coffee = ({ match }) => {
@@ -32,6 +33,7 @@ export const Coffee = ({ match }) => {
             <ExampleComponent matchParams={match.params.name}/>
           )}
         />
+        <CourseForm/>
       </div>
     </Col>
   );
